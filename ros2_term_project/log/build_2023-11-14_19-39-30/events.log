@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000396] (ros2_term_project) JobQueued: {'identifier': 'ros2_term_project', 'dependencies': OrderedDict()}
+[0.000738] (ros2_term_project) JobStarted: {'identifier': 'ros2_term_project'}
+[0.099760] (-) TimerEvent: {}
+[0.200286] (-) TimerEvent: {}
+[0.300824] (-) TimerEvent: {}
+[0.401411] (-) TimerEvent: {}
+[0.501779] (-) TimerEvent: {}
+[0.602138] (-) TimerEvent: {}
+[0.702600] (-) TimerEvent: {}
+[0.765382] (ros2_term_project) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project', '--editable', '--build-directory', '/home/ros2/AutoCar/Ros-Project/ros2_term_project/build/ros2_term_project/build', '--no-deps', 'install_data', '--install-dir', '/home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project'], 'cwd': '/home/ros2/AutoCar/Ros-Project/ros2_term_project/build/ros2_term_project', 'env': {'LESSOPEN': '| /bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'USER': 'ros2', 'SSH_AGENT_PID': '92', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ros2', 'OLDPWD': '/home/ros2/AutoCar/Ros-Project', 'QT_XKB_CONFIG_ROOT': '/usr/share/X11/locale', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_27', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_27', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-saz7FVHA0O,guid=1597623d2df76374e907085465534b50', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ros2', 'WINDOWID': '39845894', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/ros2/.local/bin:/sbin:/bin:/usr/bin:/usr/local/bin', 'SESSION_MANAGER': 'local/dc1f4247bf2c:@/tmp/.ICE-unix/101,unix/dc1f4247bf2c:/tmp/.ICE-unix/101', 'XRDP_SOCKET_PATH': '/tmp/.xrdp', 'DISPLAY': ':27.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-rMkYGvXiudK3/agent.32', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/home/ros2/.gnupg/S.gpg-agent:0:1', 'PWD': '/home/ros2/AutoCar/Ros-Project/ros2_term_project/build/ros2_term_project', 'TURTLEBOT3_MODEL': 'waffle_pi', 'PYTHONPATH': '/home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.802754] (-) TimerEvent: {}
+[0.903194] (-) TimerEvent: {}
+[1.003627] (-) TimerEvent: {}
+[1.008824] (ros2_term_project) StdoutLine: {'line': b'running develop\n'}
+[1.103760] (-) TimerEvent: {}
+[1.133702] (ros2_term_project) StdoutLine: {'line': b'running egg_info\n'}
+[1.133980] (ros2_term_project) StdoutLine: {'line': b'creating ros2_term_project.egg-info\n'}
+[1.134279] (ros2_term_project) StdoutLine: {'line': b'writing ros2_term_project.egg-info/PKG-INFO\n'}
+[1.134699] (ros2_term_project) StdoutLine: {'line': b'writing dependency_links to ros2_term_project.egg-info/dependency_links.txt\n'}
+[1.134925] (ros2_term_project) StdoutLine: {'line': b'writing entry points to ros2_term_project.egg-info/entry_points.txt\n'}
+[1.135128] (ros2_term_project) StdoutLine: {'line': b'writing requirements to ros2_term_project.egg-info/requires.txt\n'}
+[1.135387] (ros2_term_project) StdoutLine: {'line': b'writing top-level names to ros2_term_project.egg-info/top_level.txt\n'}
+[1.136835] (ros2_term_project) StdoutLine: {'line': b"writing manifest file 'ros2_term_project.egg-info/SOURCES.txt'\n"}
+[1.175364] (ros2_term_project) StdoutLine: {'line': b"reading manifest file 'ros2_term_project.egg-info/SOURCES.txt'\n"}
+[1.176301] (ros2_term_project) StdoutLine: {'line': b"writing manifest file 'ros2_term_project.egg-info/SOURCES.txt'\n"}
+[1.203922] (-) TimerEvent: {}
+[1.218879] (ros2_term_project) StdoutLine: {'line': b'running build_ext\n'}
+[1.219229] (ros2_term_project) StdoutLine: {'line': b'Creating /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/lib/python3.8/site-packages/site.py\n'}
+[1.223418] (ros2_term_project) StdoutLine: {'line': b'Creating /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/lib/python3.8/site-packages/ros2-term-project.egg-link (link to .)\n'}
+[1.224926] (ros2_term_project) StdoutLine: {'line': b'\n'}
+[1.225094] (ros2_term_project) StdoutLine: {'line': b'Installed /home/ros2/AutoCar/Ros-Project/ros2_term_project/build/ros2_term_project\n'}
+[1.225266] (ros2_term_project) StdoutLine: {'line': b'running install_data\n'}
+[1.225547] (ros2_term_project) StdoutLine: {'line': b'creating /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ament_index\n'}
+[1.225772] (ros2_term_project) StdoutLine: {'line': b'creating /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ament_index/resource_index\n'}
+[1.226032] (ros2_term_project) StdoutLine: {'line': b'creating /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ament_index/resource_index/packages\n'}
+[1.226328] (ros2_term_project) StdoutLine: {'line': b'copying resource/ros2_term_project -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ament_index/resource_index/packages\n'}
+[1.226475] (ros2_term_project) StdoutLine: {'line': b'copying package.xml -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project\n'}
+[1.226817] (ros2_term_project) StdoutLine: {'line': b'creating /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/launch\n'}
+[1.226948] (ros2_term_project) StdoutLine: {'line': b'copying launch/car_sim.launch.py -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/launch\n'}
+[1.227042] (ros2_term_project) StdoutLine: {'line': b'creating /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/worlds\n'}
+[1.227851] (ros2_term_project) StdoutLine: {'line': b'copying worlds/car_track.world.2 -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/worlds\n'}
+[1.228130] (ros2_term_project) StdoutLine: {'line': b'copying worlds/ros2_car_track_thick_lines.png -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/worlds\n'}
+[1.228320] (ros2_term_project) StdoutLine: {'line': b'copying worlds/car_track.world.1 -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/worlds\n'}
+[1.228596] (ros2_term_project) StdoutLine: {'line': b'copying worlds/ros2_car_track.png -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/worlds\n'}
+[1.228927] (ros2_term_project) StdoutLine: {'line': b'copying worlds/car_track.world -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/worlds\n'}
+[1.229051] (ros2_term_project) StdoutLine: {'line': b'copying worlds/course.material -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/worlds\n'}
+[1.229167] (ros2_term_project) StdoutLine: {'line': b'copying worlds/car_track.world.0 -> /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/share/ros2_term_project/worlds\n'}
+[1.267872] (ros2_term_project) CommandEnded: {'returncode': 0}
+[1.289408] (ros2_term_project) JobEnded: {'identifier': 'ros2_term_project', 'rc': 0}
+[1.291128] (-) EventReactorShutdown: {}
