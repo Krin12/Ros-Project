@@ -1,0 +1,20 @@
+[0.633s] Invoking command in '/home/ros2/AutoCar/Ros-Project/ros2_term_project': PYTHONPATH=/home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_term_project build --build-base /home/ros2/AutoCar/Ros-Project/ros2_term_project/build/ros2_term_project/build install --prefix /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project --record /home/ros2/AutoCar/Ros-Project/ros2_term_project/build/ros2_term_project/install.log --single-version-externally-managed
+[0.830s] running egg_info
+[0.830s] writing build/ros2_term_project/ros2_term_project.egg-info/PKG-INFO
+[0.831s] writing dependency_links to build/ros2_term_project/ros2_term_project.egg-info/dependency_links.txt
+[0.831s] writing entry points to build/ros2_term_project/ros2_term_project.egg-info/entry_points.txt
+[0.832s] writing requirements to build/ros2_term_project/ros2_term_project.egg-info/requires.txt
+[0.832s] writing top-level names to build/ros2_term_project/ros2_term_project.egg-info/top_level.txt
+[0.868s] reading manifest file 'build/ros2_term_project/ros2_term_project.egg-info/SOURCES.txt'
+[0.869s] writing manifest file 'build/ros2_term_project/ros2_term_project.egg-info/SOURCES.txt'
+[0.870s] running build
+[0.870s] running build_py
+[0.870s] running install
+[0.871s] running install_lib
+[0.872s] running install_data
+[0.873s] running install_egg_info
+[0.875s] removing '/home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/lib/python3.8/site-packages/ros2_term_project-0.0.0-py3.8.egg-info' (and everything under it)
+[0.875s] Copying build/ros2_term_project/ros2_term_project.egg-info to /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/lib/python3.8/site-packages/ros2_term_project-0.0.0-py3.8.egg-info
+[0.879s] running install_scripts
+[0.897s] writing list of installed files to '/home/ros2/AutoCar/Ros-Project/ros2_term_project/build/ros2_term_project/install.log'
+[0.917s] Invoked command in '/home/ros2/AutoCar/Ros-Project/ros2_term_project' returned '0': PYTHONPATH=/home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_term_project build --build-base /home/ros2/AutoCar/Ros-Project/ros2_term_project/build/ros2_term_project/build install --prefix /home/ros2/AutoCar/Ros-Project/ros2_term_project/install/ros2_term_project --record /home/ros2/AutoCar/Ros-Project/ros2_term_project/build/ros2_term_project/install.log --single-version-externally-managed

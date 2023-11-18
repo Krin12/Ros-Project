@@ -57,8 +57,7 @@ def generate_launch_description():
         name='spawn_entity',
         arguments=[
         '-entity', 'prius_hybrid',
-        '-file', '/home/ros2/AutoCar/Ros-Project/ros2_term_project/models/prius_hybrid/model.sdf'
-        
+        '-file', '/home/ros2/AutoCar/Ros-Project/ros2_term_project/models/prius_hybrid/model.sdf'      
     ],
     output='screen',
     )
