@@ -1,3 +1,4 @@
 [console_scripts]
-
+my_controller_node = ros2_term_project.my_controller_node:main
+my_subscriber_node = ros2_term_project.my_subscriber_node:main
 
